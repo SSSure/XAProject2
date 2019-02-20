@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'XAProject2_Example' do
   pod 'XAProject2', :path => '../'
+  pod 'XAProject1', :path => '../../XAProject1'
 
   target 'XAProject2_Tests' do
     inherit! :search_paths

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		424A53B5859ED13025E623A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		424A53B5859ED13025E623A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		46FB4D85FD45FD1FFC4ED918 /* Pods_XAProject2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XAProject2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DDB614140C6DA545227712 /* Pods_XAProject2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XAProject2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XAProject2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XAProject2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,14 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6157258C52DA356EFF580582 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6157258C52DA356EFF580582 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		664B5A115D2BD725FD1EFE12 /* Pods-XAProject2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAProject2_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAProject2_Tests/Pods-XAProject2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		67312205628566C0C496BCCF /* Pods-XAProject2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAProject2_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XAProject2_Example/Pods-XAProject2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8806367D9BCC06ACF083A568 /* Pods-XAProject2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAProject2_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XAProject2_Example/Pods-XAProject2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC6E1DE13EC908F5822D079 /* Pods-XAProject2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XAProject2_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XAProject2_Tests/Pods-XAProject2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F83CC65AC11F7E4FA8375182 /* XAProject2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XAProject2.podspec; path = ../XAProject2.podspec; sourceTree = "<group>"; };
+		F83CC65AC11F7E4FA8375182 /* XAProject2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XAProject2.podspec; path = ../XAProject2.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SSSure;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = LXZTC27892;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -504,6 +507,7 @@
 			baseConfigurationReference = 8806367D9BCC06ACF083A568 /* Pods-XAProject2_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXZTC27892;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XAProject2/XAProject2-Prefix.pch";
 				INFOPLIST_FILE = "XAProject2/XAProject2-Info.plist";
@@ -519,6 +523,7 @@
 			baseConfigurationReference = 67312205628566C0C496BCCF /* Pods-XAProject2_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXZTC27892;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XAProject2/XAProject2-Prefix.pch";
 				INFOPLIST_FILE = "XAProject2/XAProject2-Info.plist";
